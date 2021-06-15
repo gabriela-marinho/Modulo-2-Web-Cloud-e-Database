@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title>
+            EXEMPLO AULA 6
+        </title>
+
+    </head>
+    <body>
+        <form action="" method="POST">
+            <h1> EXEMPLO AULA 6</h1>
+            <div>
+                <label for="nome">Nome:</label><input type="text" name="nome" id="nome" placeholder="digite seu nome"/>
+            </div>
+            <div>
+                <label for="senha">Senha:</label><input type="password" name="senha" id="senha" placeholder="digite sua senha"/>
+            </div>
+            <div>
+                Gênero: <br />
+                <label for="m">Masculino</label><input type="radio" name="opcao_unica" value="m" id="m" />
+                <label for="f">Feminino</label><input type="radio" name="opcao_unica" value="f" id="f" />
+                <label for="o">Outro</label><input type="radio" name="opcao_unica" value="o" id="o" /><br>
+            </div>
+            <label for="escolha"> Newsletter sim!</label><input type="checkbox" sim/><br />
+            <label for="datanasc"> Data de nascimento:</label><input type="date" name="data" id="datanasc"/><br />
+            <label for="cidade"> Selecione sua cidade:</label><select id="cidade" name="cidade">
+                <option> </option>
+                <optgroup> label="Sul">
+                    <option>Curitiva</option>
+                </optgroup>
+                <optgroup> label="Nordeste">
+                    <option>Fortaleza</option>
+                </optgroup>
+                <optgroup> label="Norte">
+                    <option>Amazanas</option>
+                </optgroup>
+                <optgroup>Outra</optgroup>
+            </select></br>
+            <input type="submit" value="Enviar">
+
+        </form>
+    </body>
+
+</html>
