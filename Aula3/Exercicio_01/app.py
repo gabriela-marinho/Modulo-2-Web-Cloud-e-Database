@@ -8,10 +8,10 @@ def hello_world():
     return "<h1>Hello,Flask! Olha a vista da praia2x</h1>"
 
 #ROTA 2
-@app.route("/rota2/") #decorator
+@app.route("/rota2/<nome>") #decorator
 
-def rota2():
-    return "<h1>Hello,Flask! </h1><h3> Olha a rota 2</h3>"
+def rota2(nome=None):
+    return "<h1>Hello, "+nome+"! </h1><h3> Olha a rota 2</h3>"
 
 if(__name__=="__main__"):
     app.run(debug=True)
