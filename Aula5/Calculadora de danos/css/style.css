@@ -1,0 +1,26 @@
+body {
+	font-family: 'Verdana', sans-serif;
+}
+
+.calculadora-dano {
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color:whitesmoke;
+}
+
+.titulo{
+    display:flex;
+    flex-flow:row;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.imagens{
+    display:flex;
+    flex-flow:row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    
+}
