@@ -23,4 +23,25 @@ body {
     flex-wrap:wrap;
     justify-content: space-around;
     
+    
+}
+.cursor_itens{
+    cursor:pointer ;
+}
+.legenda-imagens{
+    text-align: center;
+    font-weight: bold;
+}
+
+.button{
+    
+    background-color: blue;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+      
+      
 }
