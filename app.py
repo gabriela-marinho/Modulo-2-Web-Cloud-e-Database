@@ -24,7 +24,7 @@ registros = [
     },
 ]
 
-
+#realizado alteraçoes
 @app.route("/read")
 def read_all():
     return render_template("read_all.html", registros=registros)
