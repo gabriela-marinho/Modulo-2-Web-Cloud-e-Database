@@ -19,7 +19,7 @@ registros = [
     },
     {
         "id": 3,
-        "nome": "pASTOR bELGA",
+        "nome": "Pastor Belga",
         "imagem_url":"https://www.racasdecachorro.com.br/wp-content/uploads/2018/11/sh_groenendael_495986761.jpg"
     },
 ]
@@ -29,9 +29,13 @@ registros = [
 def read_all():
     return render_template("read_all.html", registros=registros)
 
-@app.route("/read_id/") #verificar pq esta dando erro
-def read_id():
-    return "Calma, se afobe não!"
+@app.route("/read/<id_registro>") #verificar pq esta dando erro
+def read_id(id_registro):
+    return render_template("curiosidades_id_1.html")
+
+@app.route("/read/<id_registro>")
+def read_id(id_registro):
+    return render_template("curiosidades_id_2.html")
 
 @app.route("/create")
 def create():
