@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 body {
-    background: whitesmoke;
+    background: rgba(129, 197, 209, 0.418);
     font-family: "Montserrat", sans-serif;
     margin: 0;
-    padding: 20px 0;
+    padding: 0px 0;
 }
 
 .header{
     padding-top: 20px;
-    background: #FFFFFF;
+    background: #badfcf;
 }
 
 .bloco{
@@ -19,8 +19,8 @@ body {
 }
 
 .botao{
-    background-color: rgb(101, 108, 197);
-    border: none;
+    background-color: rgb(11, 112, 226);
+    border:#FFFFFF;
     border-radius: 10px;
     color: white;
     display: inline-block;

@@ -33,9 +33,6 @@ def read_all():
 def read_id(id_registro):
     return render_template("curiosidades_id_1.html")
 
-@app.route("/read/<id_registro>")
-def read_id(id_registro):
-    return render_template("curiosidades_id_2.html")
 
 @app.route("/create")
 def create():
